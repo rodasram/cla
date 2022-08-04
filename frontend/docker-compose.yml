@@ -7,7 +7,7 @@ services:
       context: .
       target: development
       dockerfile: ./Dockerfile
-    command: bash -c "(php-fpm &) && nginx -g 'daemon off;'"
+    command: bash -c "chown -R www-data /var/www/html && (php-fpm &) && nginx -g 'daemon off;'"
     restart: always
     env_file: .env
     environment:
