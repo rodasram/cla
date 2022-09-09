@@ -1,0 +1,81 @@
+/*banner-section*/
+.fitness-crossfit-banner-section{
+    width: auto;
+    height: auto;
+}
+.fitness-crossfit-banner-section h1,.fitness-crossfit-bmi-section p,.fitness-crossfit-bmi-section h3,.fitness-crossfit-bmi-section h5,.fitness-crossfit-bmi-section td{ 
+    font-family: 'Cabin', sans-serif;
+}
+.fitness-crossfit-banner-section .fitness-crossfit-banner-section1 .block-editor-rich-text__editable.wp-block-button__link.has-black-color.has-text-color.has-background.rich-text{
+    padding: 12px 18px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #000 !important;
+    border: none;
+}
+.fitness-crossfit-banner-section .fitness-crossfit-banner-section1 .block-editor-rich-text__editable.wp-block-button__link.has-black-color.has-text-color.has-background.rich-text:hover{
+    background: #000 !important;
+    color: #fff !important;
+}
+/*bmi section*/
+.fitness-crossfit-bmi-section .fitness-crossfit-bmi-section1 h5{
+    color: #626262;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    display: block;
+}
+.fitness-crossfit-bmi-section .fitness-crossfit-bmi-section1 h3{
+    font-weight: normal;
+    letter-spacing: 3px;
+    margin-top: 4px;
+}
+.fitness-crossfit-bmi-section .fitness-crossfit-bmi-section1 p{
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 13px;
+}
+.fitness-crossfit-bmi-section1 .wp-block-columns {
+    max-width: 450px;
+    margin-left: 0;
+}
+.fitness-crossfit-bmi-section1 p.calculate{
+    background: #ffc702;
+    border: 0 !important;
+}
+.fitness-crossfit-bmi-section .fitness-crossfit-bmi-section1 p.has-black-color.has-text-color.has-background {
+    border: none;
+}
+.fitness-crossfit-bmi-section .fitness-crossfit-bmi-section1 p{
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+    color: #000;
+}
+.fitness-crossfit-bmi-section1 .wp-container-6.wp-block-column {
+    margin: 0px 40px 1px 0px;
+}
+.fitness-crossfit-bmi-section2 figure.wp-block-table td{
+    padding: 15px 25px;
+    font-size: 16px;
+    color: #040404;
+    letter-spacing: 1px;
+    border: 1px solid #ddd;
+}
+.fitness-crossfit-bmi-section2 tr:nth-child(1) {  
+    background: #ffc702;
+    text-align-last: center;
+}
+
+
+
+
+
